@@ -5,16 +5,16 @@ baseurl: ""
 url: "https://adassa.com.jm"
 
 # Company Information
-company_name: D P Bennett & Associates
+company_name: AES, Inc
 address_line: Kingston, Jamaica
 telephone_number: 876-289-1644
 fax_number: 
-company_email: info@dpbennett.com.jm
+company_email: mail@adassa.com.jm
 
 # Social Link
 facebook_link: https://www.facebook.com/desmond.bennett.7731/
 twitter_link: https://www.twitter.com/DesmondPBennett
-github_link: https://github.com/DPBandA
+github_link: https://github.com/AES-Inc
 
 # Build settings
 markdown: kramdown

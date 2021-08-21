@@ -452,13 +452,13 @@ p.blog-text{
 .services-icon .fa:hover{
     padding: 0 10px 0 10px;
     color: white;
-    background: darkblue; /*#1BBD9B;*/
+    background: darkgray; /*#1BBD9B;*/
     border-radius: 3px; 
     transition:.4s;  
 }
 .services-group{
     padding: 10px;
-    background: darkblue; /*#061F20;*/
+    background: darkgray; /*#061F20;*/
     color: white;
 }
 .service-icon{
@@ -493,7 +493,7 @@ footer{
     margin-top:40px;
     left: 0;
     right: 0;
-    background: blue;
+    background: black;
     bottom: 0px;
 }
 

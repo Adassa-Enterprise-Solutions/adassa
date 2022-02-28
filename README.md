@@ -1,2 +1,2 @@
-# Adassa Group Website
-Adassa Group website
+# ADASSA Website
+ADASSA website

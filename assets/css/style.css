@@ -5,6 +5,11 @@
     margin: 0;
 }
 
+.sticky-navbar {
+    position: fixed;
+    width: 100%;
+}
+
 a {
     color: inherit;
     text-decoration: none;

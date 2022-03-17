@@ -1,56 +1,58 @@
 <!-- Footer -->
 <br>
-<div class="container">
-    <div class="row">
-        <div class="col-md-4">
-            <p><a href="https://dpbennett.com.jm/">
-                    <span style="color: seashell;">D P Bennett &amp; Associates</span>
-                </a>
-            </p> 
-            <p><a href="https://github.com/DPBandA/job-management-tracking-system/wiki/Introduction">
-                    <span style="color: seashell;">Job Management &amp; Tracking System</span>
-                </a>
-            </p> 
-        </div>
-        <div class="col-md-4">
-            <div id="social-icons">
-                {% if site.twitter_link %}
-                <a href="{{ site.twitter_link }}" class="btn-group">
-                    <i class="bi bi-twitter" 
-                       style="font-size: 1.5rem; color: seashell;" >                           
-                    </i>
-                </a>
-                {% endif %}
-
-                {% if site.facebook_link %}
-                <a href="{{ site.facebook_link }}" class="btn-group">
-                    <i class="bi bi-facebook" 
-                       style="font-size: 1.5rem; color: seashell;" >                           
-                    </i>
-                </a>
-                {% endif %}
-
-                {% if site.github_link %}
-                <a href="{{ site.github_link }}" class="btn-group">
-                    <i class="bi bi-github" 
-                       style="font-size: 1.5rem; color: seashell;" >                           
-                    </i>
-                </a>
-                {% endif %}
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <p><a href="https://dpbennett.com.jm/">
+                        <span style="color: seashell;">D P Bennett &amp; Associates</span>
+                    </a>
+                </p> 
+                <p><a href="https://github.com/DPBandA/job-management-tracking-system/wiki/Introduction">
+                        <span style="color: seashell;">Job Management &amp; Tracking System</span>
+                    </a>
+                </p> 
             </div>
-        </div>    
-    </div>
-</div>
+            <div class="col-md-4">
+                <div id="social-icons">
+                    {% if site.twitter_link %}
+                    <a href="{{ site.twitter_link }}" class="btn-group">
+                        <i class="bi bi-twitter" 
+                           style="font-size: 1.5rem; color: seashell;" >                           
+                        </i>
+                    </a>
+                    {% endif %}
 
-<div class="center text">
-    <p>            
-        <a href="/">                 
-            <span class="default-text-color"> 
-                &copy; Copyright {{ site.time | date: '%Y' }}, ADASSA
-            </span>
-        </a>
-    </p>
-</div>   
+                    {% if site.facebook_link %}
+                    <a href="{{ site.facebook_link }}" class="btn-group">
+                        <i class="bi bi-facebook" 
+                           style="font-size: 1.5rem; color: seashell;" >                           
+                        </i>
+                    </a>
+                    {% endif %}
+
+                    {% if site.github_link %}
+                    <a href="{{ site.github_link }}" class="btn-group">
+                        <i class="bi bi-github" 
+                           style="font-size: 1.5rem; color: seashell;" >                           
+                        </i>
+                    </a>
+                    {% endif %}
+                </div>
+            </div>    
+        </div>
+    </div>
+
+    <div class="center text">
+        <p>            
+            <a href="/">                 
+                <span class="default-text-color"> 
+                    &copy; Copyright {{ site.time | date: '%Y' }}, ADASSA
+                </span>
+            </a>
+        </p>
+    </div>   
+</footer>
 
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" 
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" 

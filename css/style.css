@@ -256,7 +256,7 @@ header .logo img {
 }
 
 .services .icon {
-    background-color: #0081EB;
+    background-color: var(--theme-color);
     width: 70px;
     height: 70px;
     font-size: 4rem;
@@ -270,22 +270,6 @@ header .logo img {
 .services .icon:hover {
     transform: scale(1.1);
     transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
-}
-
-.services .icon1 {
-    background-color: #D3E7FE;
-}
-
-.services .icon2 {
-    background-color: #FFF3CC;
-}
-
-.services .icon3 {
-    background-color: #FEE8D1;
-}
-
-.services .icon4 {
-    background-color: #D5FCDD;
 }
 
 .services .title {

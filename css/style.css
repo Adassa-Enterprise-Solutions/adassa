@@ -19,7 +19,7 @@ header .logo img {
     position: fixed;
     z-index: 100;
     justify-content: space-between;
-    align-items: center;   
+    align-items: center;
     opacity: 100%;
     background-color: var(--theme-color);
     width: 100%;
@@ -407,6 +407,16 @@ header .logo img {
 
 /* General content */
 
+.form-title {
+    font-weight:bold;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.form-description {
+    font-size: x-large;
+}
+
 .content {
     font-size: 2rem;
     text-align: center;
@@ -494,7 +504,7 @@ footer .bi-youtube {
 }
 
 .feedback-form {
-    font-size: 2rem;    
+    font-size: 2rem;
 }
 
 .form-control {

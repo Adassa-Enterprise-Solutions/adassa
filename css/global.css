@@ -22,11 +22,14 @@
 
 html {
     font-size: 10px;
-    background-color: black;
-    /*background-image: radial-gradient(#d3f0fd, white);*/
+    background-color: var(--theme-color);
 }
 
 body {
     background-color: black;
+}
+
+main {
+    padding-top: 5rem;
 }
 

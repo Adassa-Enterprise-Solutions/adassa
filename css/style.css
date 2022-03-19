@@ -9,11 +9,33 @@ header .logo img {
     cursor: pointer;
 }
 
+.company-brand {
+    font-style: oblique;
+    font-weight: bold;
+}
+
 .navbar {
     display: flex;
+    position: fixed;
+    z-index: 100;
     justify-content: space-between;
     align-items: center;
-    padding: 2rem 0;
+   
+    opacity: 100%;
+    background-color: var(--theme-color);
+    width: 100%;
+}
+
+.d-menu .d-navbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    font-size: 1.8rem;
+    display: flex;
+    flex-direction: row;
+    background-color: var(--theme-color);
+    padding: 0rem 0rem;
+    z-index: 100;
 }
 
 .d-menu ul {
@@ -23,7 +45,7 @@ header .logo img {
 }
 
 .d-menu ul li {
-    padding: 2rem 2rem;
+    padding: 1rem 2rem;
     color: var(--theme-text);
     font-size: 2.0rem;
     font-weight: 600;
@@ -96,7 +118,6 @@ header .logo img {
 .intro-section {
     display: flex;
     flex-wrap: wrap;
-    margin: 7rem auto;
 }
 
 .intro-text {
@@ -443,11 +464,6 @@ footer hr {
     background-color: lightblue;
     opacity: 30%;
 }
-
-/* main {
-    height: 50vh;
-    overflow-y: scroll;
-} */
 
 /* main::-webkit-scrollbar {
     width: 5px;

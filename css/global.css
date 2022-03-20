@@ -33,3 +33,11 @@ main {
     padding-top: 5rem;
 }
 
+.centred {
+     text-align: center;
+}
+
+option {
+    background-color: var(--theme-color);
+}
+

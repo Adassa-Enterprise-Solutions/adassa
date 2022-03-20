@@ -292,6 +292,7 @@ header .logo img {
 .products .icon:hover {
     transform: scale(1.1);
     transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+    cursor: pointer;
 }
 
 .products .title {
@@ -341,6 +342,7 @@ header .logo img {
 .services .icon:hover {
     transform: scale(1.1);
     transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+    cursor: pointer;
 }
 
 .services .title {
@@ -390,6 +392,7 @@ header .logo img {
 .academy .icon:hover {
     transform: scale(1.1);
     transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+    cursor: pointer;
 }
 
 .academy .title {

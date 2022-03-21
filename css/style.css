@@ -359,7 +359,7 @@ header .logo img {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    margin: 3rem auto 5rem auto;
+    margin: 3rem auto 3rem auto;
 }
 
 .academy div {

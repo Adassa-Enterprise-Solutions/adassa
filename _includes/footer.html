@@ -1,7 +1,7 @@
 <footer>
     <hr>
     <section class="links container">
-        
+
         <div class="qlinks">
             <h2>Quick Links</h2>
             <ul>
@@ -26,7 +26,7 @@
             </ul>
         </div>
         -->
-        <div class="social">
+        <div class="qlinks">
             <h2>Social</h2>
             <ul>
                 {% if site.twitter_link %}
@@ -42,20 +42,22 @@
                 {% endif %}
 
                 {% if site.github_link %}
-                <a href="{{ site.github_link }}" target="_blank"">
+                <a href="{{ site.github_link }}" target="_blank">
                     <li><i class="bi bi-github"></i>GitHub</li>
                 </a>
                 {% endif %}
             </ul>
         </div>
         <div class="qlinks">
-             <h2>Copyright</h2>
-            <a href="https://adassa.com.jm">
-                    <p>© ADASSA Enterprises</p>
-            </a>
-            <a href="https://dpbennett.com.jm">
-                    <p>© D P Bennett & Associates</p>
-            </a>
+            <h2>Copyright</h2>
+            <ul>
+                <a href="https://adassa.com.jm">
+                    <li>© ADASSA Enterprises</li>
+                </a>
+                <a href="https://dpbennett.com.jm" target="_blank">
+                    <li>© D P Bennett & Associates</li>
+                </a>
+            </ul>
         </div>
     </section>
 </footer>

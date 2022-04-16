@@ -520,3 +520,34 @@ footer hr {
     opacity: 30%;
 }
 
+/* Post */
+.post-container {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.post-container > * {
+    color: black;
+    background-color: white;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.post-container > p {    
+    font-size: 2rem;
+}
+
+.post-container h1 {
+    color: black;
+    background-color: white;
+}
+
+.post-container h2 {
+    color: black;
+    background-color: white;
+}
+
+.post-container h3 {
+    color: black;
+    background-color: white;
+}

@@ -1,6 +1,10 @@
 @import url(./global.css);
 @import url(./utility.css);
 
+.ul-class {
+     margin-left: 20px;
+}
+
 header {
     background-color: var(--theme-color);
 }

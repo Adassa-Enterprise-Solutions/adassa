@@ -16,16 +16,7 @@
                 </a>
             </ul>
         </div>
-        <!--
-        <div class="lglinks">
-            <h2>Legal</h2>
-            <ul>
-                <li>Privacy Policy</li>
-                <li>Cookie Policy</li>
-                <li>Terms & Condition</li>
-            </ul>
-        </div>
-        -->
+
         <div class="qlinks">
             <h2>Social</h2>
             <ul>
@@ -40,19 +31,27 @@
                     <li><i class="bi bi-facebook"></i>Facebook</li>
                 </a>
                 {% endif %}
-              
+
             </ul>
         </div>
-        <div class="qlinks">
-            <h2>© Copyright {{ site.time | date: '%Y' }}</h2>
-            <ul>                
-                <a href="https://adassa.com.jm">
-                    <li>ADASSA Enterprises</li>
+
+        <div class="lglinks">
+            <h2>Legal</h2>
+            <ul>
+                <a href="/privacy-policy">
+                    <li>Privacy Policy</li>
+                </a>
+                <a href="/terms-and-conditions">
+                    <li>Terms & Condition</li>
                 </a>
             </ul>
         </div>
     </section>
+    <section class="container">
+        <a href="/"><li>© {{ site.time | date: '%Y' }} Adassa Enterprises</li></a>
+    </section>
 </footer>
+
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" 
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" 
         crossorigin="anonymous">

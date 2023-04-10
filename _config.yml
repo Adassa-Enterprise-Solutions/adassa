@@ -1,22 +1,20 @@
 # Company Information
-company_name: ADASSA Enterprises
+company_name: Adassa Enterprises
 domain_name: adassa.com.jm
-address_line: 'Kingston, Jamaica'
-telephone_number: 876-289-1644
+address_line: Kingston
+country: Jamaica
 company_email: mail@adassa.com.jm
-description: 'This is the ADASSA group of companies website.'
-meta_description: 'business management system, engineering, 
-                   information technology'
-                   
-aboutPage: true
+description: This is the ADASSA group of companies website.
+meta_description: business management system, engineering, information technology
 
-email: mail@adassa.com.jm
-author: 'Desmond Bennett'
+# Site Information
+title: Adassa Enterprises
+author: Desmond Bennett
 authorTwitter:  https://twitter.com/dpbennett
 baseurl: /
 url: https://adassa.com.jm
 
-# Social Link
+# Social Links
 facebook_link: https://www.facebook.com/desmondpbennett
 twitter_link: https://twitter.com/DPB_and_A
 github_link: https://github.com/Adassa-Enterprises

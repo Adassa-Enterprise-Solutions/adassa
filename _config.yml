@@ -10,14 +10,13 @@ meta_description: business management system, engineering, information technolog
 # Site Information
 title: Adassa Solutions
 author: Desmond Bennett
-authorTwitter:  https://twitter.com/dpbennett
 baseurl: ""
 url: https://adassa.com.jm
 
 # Social Links
 facebook_link: https://www.facebook.com/desmondpbennett
 twitter_link: https://twitter.com/DPB_and_A
-github_link: https://github.com/Adassa-Enterprises
+github_link: https://github.com/Adassa-Enterprise-Solutions/
 
 disqus: false
 disqus_shortname: adassa

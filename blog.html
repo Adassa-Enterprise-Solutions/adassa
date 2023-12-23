@@ -1,56 +1,35 @@
 ---
-layout: default
+layout: blog-layout
+title: Blog
+description: This is the Adassa Solutions blog.
 ---
-<!-- Main Container -->
-<div class="container">
-    {% for post in site.posts %}
-    <li>
-        <a href="{{ site.baseurl }}{{ post.url | remove_first: '/' }}"><aside
-                class="dates">{{ post.date | date:"%b %d" }}</aside></a>
-        <a href="{{ site.baseurl }}{{ post.url | remove_first: '/' }}">{{ post.title }}
-            <h2>{{ post.description }}</h2></a>
-    </li>
-    <!--
-    <div class="blog-post">
-        <h1 class="blog-title">
-          {{ post.title }}
-        </h1>
-        <h2 class="blog-title">
-          {{ post.content }}
-        </h2>
-        <br>
-        <img src="assets/img/slider/{{ post.picture }}" alt="Feature-img" align="right" width="100%" class="blog-image">
-        <br>
-        <p>{{ post.description }}</p>
-        <span class="badge">{{ post.date | date: '%B %d, %Y' }}</span>
-        <div class="pull-right">
-          {% if post.label_default %}
-            <span class="label label-default">{{ post.label_default }}</span> 
-          {% endif %}
-  
-          {% if post.label_primary %}
-            <span class="label label-primary">{{ post.label_primary }}</span> 
-          {% endif %}
-          
-          {% if post.label_success %}
-            <span class="label label-success">{{ post.label_success }}</span> 
-          {% endif %}
-          
-          {% if post.label_info %}
-            <span class="label label-info">{{ post.label_info }}</span> 
-          {% endif %}
-          
-          {% if post.label_warning %}
-            <span class="label label-warning">{{ post.label_warning }}</span>
-          {% endif %}
-  
-          {% if post.label_danger %}
-            <span class="label label-danger">{{ post.label_danger }}</span>
-          {% endif %}
-        </div>         
-      </div>
-      <hr>
-    -->
-    {% endfor %}
+
+<div class="container blog-section">
+    <div class="row">
+
+        <!-- BLOG POSTS LIST -->
+        <div class="col-lg-8">
+
+            {% for post in site.posts %}
+            <!-- Blog Post -->
+            <a href="{{ post.url | prepend: site.baseurl }}">
+                <img class="img-fluid mb-3 post-feature-image" 
+                     src="{{ "/assets/media/blog/" | prepend: site.baseurl }}{{ post.img }}">
+            </a>
+            <a href="{{ post.url | prepend: site.baseurl }}">
+                <h2 class="ctitle">{{ post.title }}</h2>
+            </a>
+            <p><em>{{ post.date | date: "%b %-d, %Y" }}. | By: {{ post.author }}</em></p>
+            {{ post.excerpt }}
+            <p><a href="{{ post.url | prepend: site.baseurl }}">[Read More]</a></p>
+            <div class="hline"></div>
+
+            <div class="spacing"></div>
+            {% endfor %}
+
+        </div><!--/col-lg-8 -->
+
+        {% include sidebar.html %}
+
+    </div><!--/row -->    
 </div>
-<!--End Main Container -->

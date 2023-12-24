@@ -615,3 +615,8 @@ footer .bi-youtube {
 .post-feature-image {
     width: 200px;
 }
+
+/* Bootstrap customization */
+.navbar-nav .nav-item .nav-link {
+    color: darkblue;
+}

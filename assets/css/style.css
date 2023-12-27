@@ -440,13 +440,12 @@ header .logo p {
 
 .form-title {
     font-weight:bold;
-    font-size: xx-large;
+    font-size: large;
     text-align: center;
 }
 
 .form-description {
-    font-size: x-large;
-    margin-left: 3rem;
+    font-size: medium;
 }
 
 .content {
@@ -600,7 +599,7 @@ footer .bi-youtube {
 }
 
 .form-control {
-    font-size: 2rem;
+    font-size: medium;
 }
 
 .spacing {

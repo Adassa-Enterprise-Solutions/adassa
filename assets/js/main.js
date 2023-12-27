@@ -1,3 +1,4 @@
+/*
 var x = document.getElementById("m-navbar");
 x.style.display = "none";
 
@@ -9,3 +10,5 @@ function show(){
         x.style.display = "none";
     }
 }
+*/
+// console.log('Yes!!');

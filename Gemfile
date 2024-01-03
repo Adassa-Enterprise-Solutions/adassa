@@ -6,6 +6,8 @@ source "https://rubygems.org"
 #
 #     bundle exec jekyll serve
 #
+
+gem 'wdm', '>= 0.1.0'
 gem "jekyll", ">= 3.6.3"
 
 # If you have any plugins, put them here!

@@ -619,3 +619,10 @@ footer .bi-youtube {
 .navbar-nav .nav-item .nav-link {
     color: darkblue;
 }
+
+.nav-item-highlighted {
+    color: whitesmoke; 
+    background-color: lightblue;
+    padding-left: 0.25em;
+    padding-right: 0.25em;
+}

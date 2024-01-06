@@ -17,9 +17,9 @@ description: This is the Adassa Solutions blog.
                      src="{{ "/assets/media/blog/" | prepend: site.baseurl }}{{ post.img }}">
             </a>
             <a href="{{ post.url | prepend: site.baseurl }}">
-                <h2 class="ctitle">{{ post.title }}</h2>
+                <h1 class="ctitle">{{ post.title }}</h1>
             </a>
-            <p><em>{{ post.date | date: "%b %-d, %Y" }}. | By: {{ post.author }}</em></p>
+            <p><em>{{ post.date | date: "%b %-d, %Y" }}. | by {{ post.author }}</em></p>
             {{ post.excerpt }}
             <p><a href="{{ post.url | prepend: site.baseurl }}">[Read More]</a></p>
             <div class="hline"></div>

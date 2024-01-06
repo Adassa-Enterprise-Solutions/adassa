@@ -91,7 +91,7 @@ healthy and active.
 <div class="products">
     {% for product in site.data.products %}
     <div class="centred">
-        {% if product.name contains 'Pellet' %}
+        {% if product.categories contains 'Fish Food' %}
         <h1 class="title">
             <a href="{{product.link}}">{{product.name}}</a>
         </h1>

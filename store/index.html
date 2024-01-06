@@ -25,6 +25,7 @@ description: Welcome to Adassa Store!
             <div class="products">
                 {% for product in site.data.products %}
                 <div>
+                    {% if product.categories %}
                     <h1 class="title">
                         <a href="{{product.link}}">{{product.name}}</a>
                     </h1>
@@ -36,6 +37,7 @@ description: Welcome to Adassa Store!
                     </a>
 
                     <a href="{{product.link}}" class="btn">Buy now</a>
+                    {% endif %}
                 </div>
                 {% endfor %}                
             </div>

@@ -88,6 +88,25 @@ Avoid overfeeding, as excess food can lead to water quality issues.
 Develop a feeding schedule and monitor your fish's behavior to ensure they are 
 healthy and active.
 </p>
+<div class="products">
+    {% for product in site.data.products %}
+    <div class="centred">
+        {% if product.name contains 'Pellet' %}
+        <h1 class="title">
+            <a href="{{product.link}}">{{product.name}}</a>
+        </h1>
+
+        <a href="{{product.link}}">
+            <img class="img-fluid mb-3 post-feature-image" 
+                 alt="{{product.name}}"
+                 src="{{product.image}}">
+        </a>
+
+        <a href="{{product.link}}" class="btn">Buy now</a>
+        {% endif %}
+    </div>
+    {% endfor %}                
+</div>
 
 ## Step 6: Shelter and Decorations
 <p>

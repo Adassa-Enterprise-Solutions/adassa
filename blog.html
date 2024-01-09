@@ -10,7 +10,7 @@ description: This is the Adassa blog.
         <!-- BLOG POSTS LIST -->
         <div class="col-lg-8">
 
-            {% for post in site.posts %}
+            {% for post in site.posts limit:28 %}
             <!-- Blog Post -->
             <a href="{{ post.url | prepend: site.baseurl }}">
                 <img class="img-fluid mb-3 post-feature-image" 

@@ -7,8 +7,8 @@ date: 2024-01-06
 categories:
 - Farming
 - Ornamental Fish 
-img: FishPond.png
-thumb: FishPond.png
+img: FishPond.jpg
+thumb: FishPond.jpg
 ---
 
 Turning your backyard into a serene oasis filled with colorful and mesmerizing 

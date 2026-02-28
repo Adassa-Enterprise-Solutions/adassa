@@ -32,6 +32,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-redirect-from
   - jekyll-paginate-v2
+  - jekyll-disqus
 
 jekyll_admin:
   hidden_links:
